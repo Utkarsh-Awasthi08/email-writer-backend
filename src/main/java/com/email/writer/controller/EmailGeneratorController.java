@@ -3,6 +3,7 @@ package com.email.writer.controller;
 import com.email.writer.model.EmailRequest;
 import com.email.writer.service.EmailGeneratorService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
